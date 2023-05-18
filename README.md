@@ -16,7 +16,7 @@ A user creates a user account by clicking Login/Sign Up in upper right hand corn
 
 ## Installation
 
-The deployed application can be found at this URL 
+The deployed application can be found at this URL https://guarded-cliffs-38287.herokuapp.com/.
 
 
 ## Credits
