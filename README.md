@@ -3,7 +3,7 @@ Book search engine using Google book search API
 
 
 
-![](./Develop/client/public/book-search.png)
+![](./client/public/book-search.png)
 
 
 ## Description
