@@ -18,6 +18,7 @@ const resolvers = {
     
     login: async (parent, { email, password }) => {
       const user = await User.findOne({ email });
+      console.log(user)
 
       if (!user) {
         throw new AuthenticationError('No user found with this email address');
@@ -30,7 +31,7 @@ const resolvers = {
       }
 
       const token = signToken(user);
-
+      console.log(token)
       return { token, user };
     },
     saveBook: async (parent, { user, body }, context) => {
